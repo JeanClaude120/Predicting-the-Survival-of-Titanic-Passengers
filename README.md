@@ -4,8 +4,14 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-
-
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Step by step](#step-by-step)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Applications](#applications)
+- [Recommendations](#recommendations)
 
 
 ### Project Overview
@@ -21,12 +27,13 @@ The primary dataset used for this analysis is "titanic_dataset.csv", which conta
 - Excel - Data preparation
 - Python in Google Colab (pandas, matplotlib, sklearn, seaborn): data cleaning, analysis, visualisation and regression
 
-### Methodology: Step by step
+### Step by step
 
 - Downloaded CSV file on Kaggle.com
 - Open it in Excel to have a quick look at consistency in formatting
 - Imported a CSV into Google Colab
-- Exploratory Data Analysis (EDA)
+
+### Exploratory Data Analysis 
   
   - Check Null values
       
