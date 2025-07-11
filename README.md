@@ -135,7 +135,7 @@ print("Confusion Matrix:")
 print(cm)
 ```
 
-- Visualize the confusion matrix using
+- Visualize the confusion matrix
 
 ``` Python
 import seaborn as sns
