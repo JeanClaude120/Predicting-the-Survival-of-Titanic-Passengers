@@ -1,4 +1,4 @@
-# Predicting the Survival Chance of Titanic Passengers
+# Titanic Survival Prediction Using Machine Learning
 
 
 ## Table of Contents
