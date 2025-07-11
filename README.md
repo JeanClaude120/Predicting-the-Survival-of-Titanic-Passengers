@@ -80,6 +80,8 @@ plt.tight_layout()
 plt.show()
 ```
 
+<img width="629" height="401" alt="survived vs dead" src="https://github.com/user-attachments/assets/9b88b2d4-489f-4c25-a3be-197e77564d4a" />
+
 - Train-test split
 - Fitting the model
 - Testing the model and calculating the accuracy and the confusion matrix
@@ -141,6 +143,9 @@ plt.ylabel('Actual')
 plt.show()
 ```
 
+<img width="543" height="460" alt="confusion matrix" src="https://github.com/user-attachments/assets/797fbaf0-c284-4b6c-a8b3-523a2a278770" />
+
+
 - Description of confusion matrix:
   
    - True Negatives (TN):	The number of people who were actually Dead and the model predicted Dead.
@@ -178,6 +183,9 @@ plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.show()
 ```
+
+<img width="1015" height="583" alt="feature importance" src="https://github.com/user-attachments/assets/6abed736-6cf8-4ca5-a45e-485e4359d3ba" />
+
 
 ### Results
 
