@@ -1,5 +1,9 @@
 # Titanic Survival Prediction Using Machine Learning
 
+<div align="center">
+  <img width="672" height="422" alt="Screenshot 2025-07-11 at 20 46 45" src="https://github.com/user-attachments/assets/3817c52e-ea7a-4fed-b20b-b5f0e1926ce2" />
+</div>
+
 
 ## Table of Contents
 
