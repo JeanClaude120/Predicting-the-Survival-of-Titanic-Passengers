@@ -42,14 +42,14 @@ The primary dataset used for this analysis is "titanic_dataset.csv", which conta
   - Check Null values
       
 ``` Python
-# data.isnull().sum()
+# df.isnull().sum()
 ```
 
   - Remove the columns we don't need for analysis
     
 ``` Python
 columns_to_drop = ['PassengerId', 'Name', 'Ticket', 'Cabin', 'Embarked']
-data = data.drop(columns=columns_to_drop)
+df = df.drop(columns=columns_to_drop)
 data.head()
 ```
 
@@ -57,14 +57,14 @@ data.head()
     
 ``` Python
 median_age = df['Age'].median()
-data['Age'].fillna(median_age, inplace=True)
+df['Age'].fillna(median_age, inplace=True)
 ```
 
   - Encoding male/female into numbers
      
 ``` Python
-data['Sex'] = data['Sex'].map({'female': 0, 'male': 1})
-data.head()
+df['Sex'] = df['Sex'].map({'female': 0, 'male': 1})
+df.head()
 ```
 - Plot the total survived and dead from the dataset
 
