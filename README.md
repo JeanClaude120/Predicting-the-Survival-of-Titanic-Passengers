@@ -112,6 +112,7 @@ Shape of X_test: (179, 6)
 Shape of y_train: (712,)
 Shape of y_test: (179,)
 ```
+
 ```Python
 # Fit a logistic regression
 From sklearn.linear_model import LogisticRegression
@@ -121,6 +122,17 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 model = LogisticRegression(random_state=42, max_iter=1000)
 model.fit(X_train, y_train)
 ```
+
+```Python
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Calculate accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy of the model: {accuracy:.4f}")
+Accuracy of the model: 0.8101
+```
+
 - Confusion matrix
   
 ``` Python
